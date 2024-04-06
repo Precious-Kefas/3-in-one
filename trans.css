@@ -8,17 +8,17 @@
    /* transform: translateX(100px);*/
 }
 
-/*.circle{*/
+.circle{
     border-radius:50%;
     height: 30px;
     width: 30px;
     margin: 10px;
-/*-webkit-transition: all 6s;*/
+transition: all 6s;
 }
 
 
 .container:hover {
-   -webkit-transform: translateX(200px);
+transform: translateX(200px);
     
 }
 
@@ -33,7 +33,7 @@
     
 }
 
-/* .circle0:hover{*/
+ .circle0:hover{
        transition:transform 1.5s ease;
 
  }
@@ -111,4 +111,4 @@
 
 }
   .drop1:hover{
-    transform: skew(20deg);
+    transform: skew(20deg);}
