@@ -1,0 +1,37 @@
+
+
+#circle1{
+width: 400px;
+height: 400px;
+position: absolute ;
+background: rgb(241, 241, 78);
+border-radius: 200px;
+top: 50px;
+left: 50px;
+
+}
+
+
+#circle2{
+    width: 400px;
+    height: 400px;
+    position:absolute ;
+    background: rgb(200, 100, 200);
+    border-radius: 200px;
+    top: 250px;
+    left: 150px;
+    
+    
+    }
+
+
+#circle5{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: rgb(100, 200, 100);
+    border-radius: 200px;
+    top: 50px;
+    left: 250px;
+    
+    }

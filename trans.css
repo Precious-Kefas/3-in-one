@@ -1,0 +1,114 @@
+.container {
+    margin: 100px;
+    border-radius:50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    transition: all 5s;
+   /* transform: translateX(100px);*/
+}
+
+/*.circle{*/
+    border-radius:50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+/*-webkit-transition: all 6s;*/
+}
+
+
+.container:hover {
+   -webkit-transform: translateX(200px);
+    
+}
+
+
+.circle0 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: PaleTurquoise;
+    transition: transform 8s linear;
+    
+}
+
+/* .circle0:hover{*/
+       transition:transform 1.5s ease;
+
+ }
+.circle1 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: salmon;
+    transition: transform 1.5s ease;
+}
+
+.circle2 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: lightskyblue;
+    transition: 1.5s ease-in;
+}
+
+.circle3 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: khaki;
+    transition: all 1.5s ease-out;
+}
+
+.circle4 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: mediumturquoise;
+    transition: all 1.5s ease-in-out;
+}
+
+.circle5 {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background: thistle;
+    transition: transform 
+1.5s cubic-bezier(0, 1, .98, 0);
+}
+
+
+
+.drop{
+     background: mediumturquoise;
+     border-radius: 4% 50%;
+     height: 100px;
+     margin: 0 auto;
+     transition: all 3s;
+     transition-timing-function: ease-in-out;
+     width: 100px;
+
+}
+  .drop:hover{
+    transform: rotate(1080deg);
+  }
+
+
+  .drop1{
+     background: thistle;
+     border-radius: 50% 50%;
+     height: 100px;
+     margin: 10px;
+     transition: all 1s;
+     transition-timing-function:ease-out;
+     width: 100px;
+
+}
+  .drop1:hover{
+    transform: skew(20deg);
